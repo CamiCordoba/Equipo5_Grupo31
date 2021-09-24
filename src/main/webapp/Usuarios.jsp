@@ -9,7 +9,7 @@
 </head>
 <body>
 <%!String mensaje=""; 
-Long cedula;      //CLASE MINUTO 1:10:59
+Long cedula;      //CLASE MINUTO 1:10:59:3
 String email="",nombre="",pass="",user="",estado="";%>
 <%
 if(request.getParameter("cedula")!=null){
