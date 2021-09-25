@@ -11,7 +11,7 @@
     <div class="topnav">
         <a href="Administrador.jsp">Inicio</a>
         <a href="Usuarios.jsp">Usuarios</a>
-        <a href="clients.html">Clientes</a>
+        <a href="Customers.jsp">Clientes</a>
         <a href="provider.html">Proveedores</a>
         <a href="products.html">Productos</a>
         <a href="sales.html">Ventas</a>
