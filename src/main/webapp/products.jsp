@@ -25,7 +25,7 @@
     <div class="form-content">
     	<div class="form-container">
     		<form action="file" method="post" enctype="multipart/form-data">
-    		<div><label>Archivo:</label><input type="text" name="filename"> <input type="file" value="Examinar" name="file" ></div>
+    		<div><label>Archivo: </label><input type="text" name="filename"> <input type="file" value="Examinar" name="file" ></div>
     		<div><input type="submit" name="upload" value="cargar arrchivo"></div>
     		</form>
     	</div>
