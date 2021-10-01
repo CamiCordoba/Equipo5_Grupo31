@@ -13,7 +13,7 @@ import Controlador.Conexion;
 
 public class CustomerDAO {  
 	Conexion plug = new Conexion();
-	Connection plugIn = plug.plugIn();
+	Connection plugIn = plug.Conectar();
 	PreparedStatement ps = null;
 	ResultSet result = null;
 	

@@ -37,36 +37,15 @@ out.print("<script>alert('"+mensaje+"')</script>");//Mensaje con alert de js
 <div class="topnav">
         <a href="Administrador.jsp">Inicio</a>
         <a href="Usuarios.jsp">Usuarios</a>
-        <a href="clients.html">Clientes</a>
-        <a href="provider.html">Proveedores</a>
-        <a href="products.html">Productos</a>
-        <a href="sales.html">Ventas</a>
-        <a href="report.html">Reportes</a>
+        <a href="Customers.jsp">Clientes</a>
+        <a href="Proveedores.jsp">Proveedores</a>
+        <a href="Products.jsp">Productos</a>
+        <a href="Sales.jsp">Ventas</a>
+        <a href="Reports.jsp">Reportes</a>
     </div>
     <h1 class="title">TIC SUPPS</h1>
     
-<!-- ____________________________________________________________________________________
-<fieldset>
-<legend>Datos del usuario</legend>
-<form action="Usuario" method="post">
-<div><label>Cedula: </label><input type="number" name="cedula" value="<%=cedula %>" required <%=estado %>></div>
-<div><label>Email: </label><input type="text" name="email" value="<%=email %>"></div>
-<div><label>Nombre: </label><input type="text" name="nombre" value="<%=nombre %>"></div>
-<div><label>Contraseña: </label><input type="text" name="pass" value="<%=pass %>"></div>
-<div><label>Usuario: </label><input type="text" name="user" value="<%=user %>"></div>
-<div><input type="submit" name="registrar" value="registrar">
-<input type="submit" name="modificar" value="modificar">
-<input type="submit" name="eliminar" value="eliminar"></div>
-</form>
-</fieldset>
 
-<form action="Usuario" method="post">
-<fieldset>
-<legend>Consultar</legend>
-<div><label>Cedula: </label><input type="number" name="cedula_usuario" required></div>
-<input type="submit" name="consultar" value="consultar">
-</fieldset>
-</form>
  _______________________________________________________________________________ -->
       <form action="Usuario" method="post">
       <div class="form-content">
