@@ -90,7 +90,7 @@ public class Customers extends HttpServlet {
 			int option=JOptionPane.showConfirmDialog(null, "Desea eliminar el cliente con identificacion: "+ID);
 			if(option==0) {
 				if(custDao.deleteCustomer(ID)) {
-					response.sendRedirect("Customers.jsp?sten=Libro eliminado exitosamente");
+					response.sendRedirect("Customers.jsp?sten=Cliente eliminado exitosamente");
 					}
 				}else {
 					response.sendRedirect("Customers.jsp");
