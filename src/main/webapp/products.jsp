@@ -16,7 +16,7 @@
         <a href="main.html">Inicio</a>
         <a href="users.html">Usuarios</a>
         <a href="clients.html">Clientes</a>
-        <a href="provider.html">Proveedores</a>
+        <a href="Proveedores.jsp">Proveedores</a>
         <a href="products.jsp">Productos</a>
         <a href="sales.html">Ventas</a>
         <a href="report.html">Reportes</a>
