@@ -8,6 +8,7 @@ public class SalesDTO {
 	private Float total_sale;
 	private Float sale_;
 	
+	
 	public SalesDTO(Long cod_sale, Long id_customer, Long id_user,
 			Float iva_sale, Float total_sale, Float sale_) {
 		super();
