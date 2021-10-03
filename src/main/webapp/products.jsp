@@ -13,13 +13,13 @@
 
 <body>
     <div class="topnav">
-        <a href="main.html">Inicio</a>
-        <a href="users.html">Usuarios</a>
-        <a href="clients.html">Clientes</a>
-        <a href="provider.html">Proveedores</a>
-        <a href="products.jsp">Productos</a>
-        <a href="sales.html">Ventas</a>
-        <a href="report.html">Reportes</a>
+        <a href="Administrador.jsp">Inicio</a>
+      <a href="Usuarios.jsp">Usuarios</a>
+      <a href="Customers.jsp">Clientes</a>
+      <a href="Proveedores.jsp">Proveedores</a>
+      <a href="products.jsp">Productos</a>
+      <a href="Sales.jsp">Ventas</a>
+      <a href="Reports.jsp">Reportes</a>
     </div>
     <h1 class="title">Modulo Productos</h1>
     <div class="form-content">
