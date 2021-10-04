@@ -4,14 +4,14 @@ package Controlador;
 
 public class providerDTO {
 	
-		private Long NIT;
+		private long NIT;
 		private String city;
 		private String address;
 		private String name;
 		private String phone;
 		
 		
-		public providerDTO(Long nIT, String city, String address, String name, String phone) {
+		public providerDTO(long NIT, String city, String address, String name, String phone) {
 			super();
 			NIT = nIT;
 			this.city = city;
@@ -21,12 +21,12 @@ public class providerDTO {
 		}
 
 
-		public Long getNIT() {
+		public long getNIT() {
 			return NIT;
 		}
 
 
-		public void setNIT(Long nIT) {
+		public void setNIT(long NIT) {
 			NIT = nIT;
 		}
 
