@@ -43,7 +43,7 @@ ProviderDAO ProvDao = new ProviderDAO();
 			providerDTO ProvDto = new providerDTO(NIT,city,address,name,phone);
 			if(ProvDao.createProvider(ProvDto)) {
 				//JOptionPane.showMessageDialog(null, "Proveedor creado exitosamente....");
-				response.sendRedirect("Providers.jsp?sten=Cliente creado exitosamente ");
+				response.sendRedirect("Providers.jsp?sten=Proveedor creado exitosamente ");
 			}else {
 				//JOptionPane.showMessageDialog(null, "Registro fallido");
 				response.sendRedirect("Providers.jsp?sten=Registro fallido");
@@ -75,7 +75,7 @@ ProviderDAO ProvDao = new ProviderDAO();
 			address=request.getParameter("address");
 			name=request.getParameter("name");
 			phone=request.getParameter("phone");
-			CustomerDTO custDto = new CustomerDTO(NIT,city,address,name,phone);
+			providerDTO ProvDto = new providerDTO(NIT,city,address,name,phone);
 			if(ProvDao.updateprovider(ProvDto)) {
 				//JOptionPane.showMessageDialog(null, "Proveedor actualizado exitosamente");
 				response.sendRedirect("Providers.jsp?sten=Proveedor actualizado exitosamente");
@@ -84,6 +84,7 @@ ProviderDAO ProvDao = new ProviderDAO();
 				response.sendRedirect("Providers.jsp?sten=Error al actualizar");
 			}
 			}
+		
 		
 		if (request.getParameter("delete")!=null) {
 			long NIT;
