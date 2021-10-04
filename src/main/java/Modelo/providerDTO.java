@@ -1,5 +1,5 @@
 
-package Controlador;
+package Modelo;
 
 
 public class providerDTO {
@@ -13,7 +13,7 @@ public class providerDTO {
 		
 		public providerDTO(long NIT, String city, String address, String name, String phone) {
 			super();
-			NIT = nIT;
+			this.NIT = NIT;
 			this.city = city;
 			this.address = address;
 			this.name = name;
@@ -27,7 +27,7 @@ public class providerDTO {
 
 
 		public void setNIT(long NIT) {
-			NIT = nIT;
+			this.NIT = NIT;
 		}
 
 

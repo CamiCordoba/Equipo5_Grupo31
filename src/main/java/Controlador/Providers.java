@@ -8,14 +8,14 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.swing.JOptionPane;
 
-import Modelo.CustomerDAO;
-import Modelo.CustomerDTO;
+import Modelo.ProviderDAO;
+import Modelo.providerDTO;
 
 
 @WebServlet("/Providers")
 public class Providers extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-	private static final providerDTO ProvDto = null;
+	//private static final providerDTO ProvDto = null;
   
     public Providers() {
         super();
