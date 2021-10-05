@@ -19,8 +19,13 @@
 
         <a href="Customers.jsp">Clientes</a>
         <a href="Proveedores.jsp">Proveedores</a>
+<<<<<<< HEAD
 
         <a href="Products.jsp">Productos</a>
+=======
+
+        <a href="products.jsp">Productos</a>
+>>>>>>> branch 'master' of https://github.com/CamiCordoba/Equipo5_Grupo31.git
         <a href="Sales.jsp">Ventas</a>
         <a href="Reports.jsp">Reportes</a>
     </div>

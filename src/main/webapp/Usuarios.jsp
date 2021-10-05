@@ -8,6 +8,46 @@
 	<title>Usuarios</title>
 	</head>
 <body>
+<<<<<<< HEAD
+=======
+<%!String mensaje=""; 
+Long cedula;      //CLASE MINUTO 1:10:59:3
+String email="",nombre="",pass="",user="",estado="";%>
+<%
+if(request.getParameter("cedula")!=null){
+cedula=Long.parseLong(request.getParameter("cedula"));
+email=request.getParameter("email");
+nombre=request.getParameter("nombre");
+pass=request.getParameter("pass");
+user=request.getParameter("user");
+//estado="disabled";
+estado="readonly";
+}
+%>
+<%
+if(request.getParameter("men")!=null){
+cedula=null;
+email="";
+nombre="";
+pass="";
+user="";
+estado="";
+mensaje=request.getParameter("men");
+out.print("<script>alert('"+mensaje+"')</script>");//Mensaje con alert de js
+}
+%>
+<div class="topnav">
+        <a href="Administrador.jsp">Inicio</a>
+        <a href="Usuarios.jsp">Usuarios</a>
+        <a href="Customers.jsp">Clientes</a>
+        <a href="Proveedores.jsp">Proveedores</a>
+        <a href="products.jsp">Productos</a>
+        <a href="Sales.jsp">Ventas</a>
+        <a href="Reports.jsp">Reportes</a>
+    </div>
+    <h1 class="title">TIC SUPPS</h1>
+    
+>>>>>>> branch 'master' of https://github.com/CamiCordoba/Equipo5_Grupo31.git
 
 	<%!String mensaje=""; 
 		Long cedula;      //CLASE MINUTO 1:10:59:3

@@ -90,11 +90,22 @@ public class Customers extends HttpServlet {
 		}
 		if (request.getParameter("delete") != null) {
 			long ID;
+<<<<<<< HEAD
 			ID = Long.parseLong(request.getParameter("i_d"));
 			int option = JOptionPane.showConfirmDialog(null, "Desea eliminar el cliente con identificacion: " + ID);
 			if (option == 0) {
 				if (custDao.deleteCustomer(ID)) {
 					response.sendRedirect("Customers.jsp?sten=Cliente eliminado exitosamente");
+=======
+			ID=Long.parseLong(request.getParameter("i_d"));
+			int option=JOptionPane.showConfirmDialog(null, "Desea eliminar el cliente con identificacion: "+ID);
+			if(option==0) {
+				if(custDao.deleteCustomer(ID)) {
+					response.sendRedirect("Customers.jsp?sten=Cliente eliminado exitosamente");
+					}
+				}else {
+					response.sendRedirect("Customers.jsp");
+>>>>>>> branch 'master' of https://github.com/CamiCordoba/Equipo5_Grupo31.git
 				}
 			} else {
 				response.sendRedirect("Customers.jsp");

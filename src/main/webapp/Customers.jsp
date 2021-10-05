@@ -47,7 +47,7 @@ if(request.getParameter("sten")!=null){
       <a href="Usuarios.jsp">Usuarios</a>
       <a href="Customers.jsp">Clientes</a>
       <a href="Proveedores.jsp">Proveedores</a>
-      <a href="Products.jsp">Productos</a>
+      <a href="products.jsp">Productos</a>
       <a href="Sales.jsp">Ventas</a>
       <a href="Reports.jsp">Reportes</a>
    </div>
