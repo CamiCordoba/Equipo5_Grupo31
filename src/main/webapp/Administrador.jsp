@@ -2,11 +2,13 @@
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="ISO-8859-1">
-<link rel="stylesheet" href="css/styles.css">
-<title>Menu de administrador</title>
+    <meta charset="ISO-8859-1">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Menu de administrador</title>
 </head>
+
 <body>
     <div class="topnav">
         <a href="Administrador.jsp">Inicio</a>
@@ -25,4 +27,5 @@
     <h1 class="title">TIC SUPPS</h1>
     <img src="images/fondo.png" alt="">
 </body>
+
 </html>
