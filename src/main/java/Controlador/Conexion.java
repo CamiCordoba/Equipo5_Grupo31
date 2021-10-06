@@ -6,7 +6,7 @@ import java.sql.DriverManager;
 import javax.swing.JOptionPane;
 
 public class Conexion {
-	private String bd="supptics";
+	private String bd="tienda";
 	private String url="jdbc:mysql://localhost:3306/"+bd;
 	private String user="root";
 	private String pass="";
