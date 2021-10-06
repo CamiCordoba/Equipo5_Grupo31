@@ -2,11 +2,13 @@
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="ISO-8859-1">
-<link rel="stylesheet" href="css/styles.css">
-<title>Menu de administrador</title>
+    <meta charset="ISO-8859-1">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Menu de administrador</title>
 </head>
+
 <body>
     <div class="topnav">
         <a href="Administrador.jsp">Inicio</a>
@@ -17,12 +19,18 @@
 
         <a href="Customers.jsp">Clientes</a>
         <a href="Proveedores.jsp">Proveedores</a>
+<<<<<<< HEAD
+
+        <a href="Products.jsp">Productos</a>
+=======
 
         <a href="products.jsp">Productos</a>
+>>>>>>> branch 'master' of https://github.com/CamiCordoba/Equipo5_Grupo31.git
         <a href="Sales.jsp">Ventas</a>
         <a href="Reports.jsp">Reportes</a>
     </div>
     <h1 class="title">TIC SUPPS</h1>
     <img src="images/fondo.png" alt="">
 </body>
+
 </html>

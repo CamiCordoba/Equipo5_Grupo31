@@ -17,14 +17,15 @@ import Modelo.UsuarioDTO;
 @WebServlet("/Usuario")
 public class Usuario extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-       
-    /**
-     * @see HttpServlet#HttpServlet()
-     */
-    public Usuario() {
-        super();
-        // TODO Auto-generated constructor stub
-    }
+
+	/**
+	 * @see HttpServlet#HttpServlet()
+	 */
+	public Usuario() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
@@ -78,10 +79,10 @@ public class Usuario extends HttpServlet {
 			usuario = request.getParameter("user");
 			UsuarioDTO usuario_act = new UsuarioDTO(cedula,email,nombre,contraseña,usuario);
 			if(usuDao.Actualizar_Usuario(usuario_act)) {
-				//JOptionPane.showMessageDialog(null, "Libro se Actualizo Exitosamente.");
+				//JOptionPane.showMessageDialog(null, "productos se Actualizo Exitosamente.");
 				response.sendRedirect("Usuarios.jsp?men=Usuario Actualizado Exitosamente.");
 			}else {
-				//JOptionPane.showMessageDialog(null, "El libro no se Modifico.");
+				//JOptionPane.showMessageDialog(null, "El producto no se Modifico.");
 				response.sendRedirect("Usuarios.jsp?men=El usuario no se Modifico.");
 			}
 			}
