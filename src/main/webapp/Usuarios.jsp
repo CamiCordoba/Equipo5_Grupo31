@@ -40,13 +40,13 @@ out.print("<script>alert('"+mensaje+"')</script>");//Mensaje con alert de js
         <a href="Customers.jsp">Clientes</a>
         <a href="Proveedores.jsp">Proveedores</a>
         <a href="products.jsp">Productos</a>
-        <a href="Sales.jsp">Ventas</a>
+        <a href="Ventas.jsp">Ventas</a>
         <a href="Reports.jsp">Reportes</a>
     </div>
     <h1 class="title">TIC SUPPS</h1>
     
 
- _______________________________________________________________________________ -->
+ 
       <form action="Usuario" method="post">
       <div class="form-content">
             <div class="form-container">

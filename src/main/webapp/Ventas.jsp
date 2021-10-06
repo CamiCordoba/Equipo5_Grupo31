@@ -18,7 +18,7 @@
         <a href="report.html">Reportes</a>
     </div>
     <h1 class="title">TIC SUPPS</h1>
-    <!-- ---------------------------------------------------------- -->
+
     <form action="Usuario" method="post">
       <div class="form-content">
             <div class="form-container">
@@ -77,5 +77,10 @@
                             <input type="submit" name="calcular" value="Calcular" id="boton">
                             <input type="submit" name="confirmar" value="Confirmar" id="boton">
                         	</div>
+                        	</form>
+                        	</div>
+                        	</div>
+                        	</div>
+                        	</form>
 </body>
 </html>
